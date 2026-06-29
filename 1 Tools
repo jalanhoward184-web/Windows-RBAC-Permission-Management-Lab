@@ -1,0 +1,23 @@
+Windows OS
+Computer Management (lusrmgr.msc)
+File Explorer (Folder Permissions)
+GitHub (Documentation)
+Steps
+Created two users: Jane and Bob
+Created two security groups: Accounting and Sales
+Added Jane to the Accounting group
+Added Bob to the Sales group
+Created two folders: Accounting and Sales
+Configured NTFS permissions so:
+Accounting group → full access to Accounting folder
+Sales group → full access to Sales folder
+No cross‑access between groups
+Logged in as each user to verify access control
+Confirmed least‑privilege enforcement
+What I learned 
+How RBAC works in Windows
+How to create and manage local users and groups
+How NTFS permissions map to role‑based groups
+How least‑privilege prevents unauthorized access
+How Windows enforces folder‑level access control
+Fundamentals of identity and access management (IAM)
